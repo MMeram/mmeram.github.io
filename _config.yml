@@ -1,2 +1,3 @@
 name: Mehmet Ali Meram, autonomous system enthusiast
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
