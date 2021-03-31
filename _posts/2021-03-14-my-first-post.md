@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "M.Ali Meram, ADB commands"
+title: "Useful ADB commands"
 date: 2021-03-14
 ---
 
