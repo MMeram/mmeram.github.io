@@ -1,9 +1,7 @@
 ---
 layout: post
-title: "M.Ali Meram, Autonomous Systems Enthusiats, Launches Site"
+title: "M.Ali Meram, ADB commands"
 date: 2021-03-14
 ---
 
-Well. Finally got around to putting this old website together. 
-Neat thing about it - powered by [Jekyll](http://jekyllrb.com) and 
-I can use Markdown to author my posts. It actually is a lot easier than I thought it was going to be.
+check out this post, thanks to Pulimet: <script src="https://gist.github.com/Pulimet/5013acf2cd5b28e55036c82c91bd56d8.js"></script>
