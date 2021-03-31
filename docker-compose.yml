@@ -1,0 +1,12 @@
+version: '2'
+services:
+
+  api:
+    image: jekyll/jekyll
+    container_name: github-blog-local
+    volumes:
+      - ./:/media/mmeram/backup/docker-prj/mmeram.github.io
+    working_dir: /media/mmeram/backup/docker-prj/mmeram.github.io
+    command: sh -c 'jekyll serve -s /media/mmeram/backup/docker-prj/mmeram.github.io --watch'
+    ports:
+      - "4001:4001"
