@@ -1,2 +1,2 @@
 # mmeram.github.io
-This is my first blog entry
+This is my inital web page
