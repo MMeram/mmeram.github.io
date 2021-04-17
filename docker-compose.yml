@@ -7,6 +7,6 @@ services:
     volumes:
       - ./:/media/mmeram/backup/docker-prj/mmeram.github.io
     working_dir: /media/mmeram/backup/docker-prj/mmeram.github.io
-    command: sh -c 'jekyll serve -s /media/mmeram/backup/docker-prj/mmeram.github.io --watch'
+    command: sh -c 'jekyll serve -s /media/mmeram/backup/docker-prj/mmeram.github.io --watch --trace'
     ports:
       - "4001:4001"

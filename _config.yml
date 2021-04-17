@@ -5,10 +5,12 @@ port: 4001
 url: https://mmeram.github.io/
 
 # Build settings
-theme: minima
+theme: jekyll-theme-hacker
 plugins:
   - jekyll-feed
   - jekyll-autoprefixer
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -17,7 +19,10 @@ plugins:
 #
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
-#
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
 # exclude:
 #   - .sass-cache/
 #   - .jekyll-cache/
